@@ -63,38 +63,35 @@
 
             <!-- Main Content -->
             <main>
-                <h1>Adopt the Perfect Pet</h1>
-                <h2>From more than 17,000 animal shelters & rescues</h2>
-                <p>Rehoming your pet should be easy and stress free both for you
-                    and your pet. Our experts at Adopt-a-Pet.com have created a
-                    simple, reliable, free program to help you place your pet
-                    from your loving home directly to another.</p>
+                <h1>Contact us if you are interested!</h1>
+                <p>Please leave your contact information below:</p>
+                <form action="/contact" method="post" size="500">
+                    <fieldset>
+                        <label for="fname">
+                            First Name:
+                        </label><br>
+                        <input type="text" name="fname"><br>
+                        <label for="lname">
+                            Last Name:
+                        </label><br>
+                        <input type="text" name="fname"><br>
+                        <label for="lname">
+                            Email:
+                        </label><br>
+                        <input type="text" name="fname"><br>
+                        <label for="phone">
+                            Phone Number:
+                        </label><br>
+                        <input type="number" min="1111111111" max="9999999999"
+                            name="phone"><br>
+                        <input type="checkbox" name="contact" value="email" />Email
+                        <input type="checkbox" name="contact" value="phone" />Phone<br>
+                        <input type="submit" value="submit" />
+                    </fieldset>
+                </form>
             </main> <!-- End Main Content -->
 
             <section>
-                <ul id="partners">
-                    <li class="partner">
-                        <h3>Create a Pet Profile:</h3>
-                        <p>Get your pets posted on Adopt-a-Pet.com to be seen
-                            by millions of pet adopters.</p>
-                    </li>
-                    <li class="partner">
-                        <h3>Review Applications:</h3>
-                        <p>The dedicated team at Rehome will give you all the
-                            help you need to select the best potential adopters.</p>
-                    </li>
-                    <li class="partner">
-                        <h3>Meet Adopters:</h3>
-                        <p>The Rehome team will guide you through the process
-                            of setting safe and pressure-free meetings with
-                            applicants.</p>
-                    </li>
-                    <li class="partner">
-                        <h3>Finalize Adoption:</h3>
-                        <p>Rehome will provide you with an adoption contract to
-                            protect the transfer of your pet ownership.</p>
-                    </ul>
-                </section>
                 <div class="social">
                     <table border="2">
                         <caption>
@@ -133,24 +130,27 @@
                         </tfoot>
                     </table>
                 </div>
-            </div>
+            </section>
 
             <!-- Footer Information -->
             <footer>
                 <div id="nondisclaimer">
                     <div class="copy">&copy Copyright 2022 ::
-                        Local Pet Adoption.com
-                    </div>
-                    <div id="disclaimer">
-                        <p>This website is designed and created solely for
-                            educational purposes only at Westcliff
-                            University.
-                            All
-                            contents are not intended for any commercial
-                            gain or
-                            use.</p>
-                    </div>
-                </footer>
-            </div> <!-- End Container-->
-        </body>
-    </html>
+                        Local Pet Adoption.com</div>
+                    <!-- <div class="social">
+                            <h3>Facebook Image</h3>
+                            <h3>Instagram Image</h3>
+                            <h3>Twitter Image</h3>
+                        </div> -->
+                </div>
+                <div id="disclaimer">
+                    <p>This website is designed and created solely for
+                        educational purposes only at Westcliff University.
+                        All
+                        contents are not intended for any commercial gain or
+                        use.</p>
+                </div>
+            </footer>
+        </div> <!-- End Container-->
+    </body>
+</html>
