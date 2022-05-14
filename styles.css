@@ -1,0 +1,33 @@
+#nav {
+    margin: 10px auto;
+    height: 40px;
+    background-color: rgb(218, 218, 218);
+}         
+#nav ul {
+    list-style: none;
+    margin-left: 10px;
+}           
+#nav li {
+    display: inline;                
+}           
+#nav a {
+    line-height: 40px;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px 50px;
+}           
+#nav a:hover {
+    background-color: rgb(198, 198, 198);
+}
+body{
+    background-image: url('images/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+}
+header{
+    background-image: url('images/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+}
