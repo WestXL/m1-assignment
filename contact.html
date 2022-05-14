@@ -1,39 +1,10 @@
 <!DOCTYPE html>
-
-<style type="text/css">           
-        #nav {
-            margin: 10px auto;
-            height: 40px;
-            background-color: rgb(218, 218, 218);
-        }         
-        #nav ul {
-            list-style: none;
-            margin-left: 10px;
-        }           
-        #nav li {
-            display: inline;                
-        }           
-        #nav a {
-            line-height: 40px;
-            color: #fff;
-            text-decoration: none;
-            padding: 20px 50px;
-        }           
-        #nav a:hover {
-            background-color: rgb(198, 198, 198);
-        }
-        body{
-            background-image: url('images/bg.jpg');
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-attachment: fixed; 
-        }
-    </style>
 <html>
     <head>
         <title>Local Pet Adoption Service</title>
+        <link rel="stylesheet" href="styles.css">
     </head>
-    <body>
+    <body id="home">
         <!-- Container to wrap everything -->
         <div id="container">
 
@@ -64,26 +35,29 @@
             <!-- Main Content -->
             <main>
                 <h1>Contact us if you are interested!</h1>
-                <p>Please leave your contact information below:</p>
+                <h2>Please leave your contact information below:</h2>
                 <form action="/contact" method="post" size="500">
                     <fieldset>
                         <label for="fname">
                             First Name:
                         </label><br>
-                        <input type="text" name="fname"><br>
+                        <input type="text" name="fname" id="firstname"><br>
                         <label for="lname">
                             Last Name:
                         </label><br>
-                        <input type="text" name="fname"><br>
+                        <input type="text" name="fname" id="lastname"><br>
                         <label for="lname">
                             Email:
                         </label><br>
-                        <input type="text" name="fname"><br>
+                        <input type="text" name="fname" id="email"><br>
                         <label for="phone">
                             Phone Number:
                         </label><br>
                         <input type="number" min="1111111111" max="9999999999"
-                            name="phone"><br>
+                            id="phone"><br>
+                        <label for="phone">
+                            How can we contact you?
+                        </label><br>
                         <input type="checkbox" name="contact" value="email" />Email
                         <input type="checkbox" name="contact" value="phone" />Phone<br>
                         <input type="submit" value="submit" />
