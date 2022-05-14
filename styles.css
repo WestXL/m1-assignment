@@ -19,6 +19,7 @@
     color: #fff;
     text-decoration: none;
     padding: 10px 100px;
+    box-shadow: inset 20px;
 }           
 #nav a:hover {
     background-color: rgb(198, 198, 198);
@@ -84,3 +85,43 @@ label {
 fieldset {
     border:1px solid rgb(221, 0, 0);
 }
+
+table {
+    width: 1500px;
+    margin: 4em auto 4em auto;
+}
+
+caption {
+    background: rgb(218, 218, 218, 0.8);
+    height: 40px;
+    color: #fff;
+    font-size: 1.3em;
+    font-weight: bold;
+    padding-top: 1em;
+}
+
+caption h3{
+    margin-top: -5px;
+}
+
+thead, tbody {
+    background:#ffffff;
+    opacity: 0.5;
+    text-align: center;
+    font-weight:bold;
+}
+
+th, td {
+    width: 225px;
+    height: 75px;
+    vertical-align: middle;
+    border: solid 1px #852b1b;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+    background-color: rgb(159, 159, 159);
+    color:white;
+    /* opacity: 0.5; */
+}
+
