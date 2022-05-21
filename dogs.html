@@ -112,7 +112,12 @@
             var tail = "</li>";
 
             for (var i = 1; i <= 10; i++) {
-                image = head + "<img src='/images/dogs/dog-" + i + ".jpg'>" + tail;
+                captionText = "This is puppy No. " + i;
+                image = head + "<img src='/images/dogs/dog-" + 
+                i + ".jpg'>" + 
+                "<div class='hiddenText'>Are you interested in Puppy-" + 
+                i + "?</div>" + "<figcaption class='caption'>" + 
+                captionText + "</figcaption>" + tail;
                 imageList.push(image);
             }
             document.getElementById("photos").innerHTML = imageList;

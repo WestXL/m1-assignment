@@ -90,7 +90,7 @@ fieldset {
 }
 
 table {
-    width: 1500px;
+    width: 1200px;
     margin: 4em auto 4em auto;
 }
 
@@ -142,5 +142,34 @@ footer {
 }
 
 #photos img{
-    width: 550px;
+    width: 450px;
+}
+
+#photos figcaption{
+    margin-top: -50px;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    text-transform: uppercase;
+}
+
+.hiddenText {
+  position: relative; 
+  left: 45px; 
+  bottom: 160px; 
+  background: rgba(255, 255, 255, 0.6); 
+  width: 320px;
+  padding: 20px;
+  transition: 0.5s;
+  opacity:0;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+}
+
+#photos li:hover .hiddenText {
+  opacity: 1;
+}
+
+#photos li img:hover {
+  cursor: pointer;
 }
