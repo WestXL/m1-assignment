@@ -22,6 +22,7 @@
     box-shadow: inset 20px;
 }           
 #nav a:hover {
+    width: auto;
     background-color: rgb(198, 198, 198);
 }
 body {
