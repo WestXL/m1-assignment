@@ -34,78 +34,10 @@
 
             <!-- Main Content -->
             <main>
-                <h1>How It Works</h1>
-                <h2>1. Create A Pet Profile</h2>
-                <p>Create a pet profile in minutes and manage it in your
-                    dashboard. Use your dashboard to:</p>
-                <ul id="partners">
-                    <li class="partner">
-                        <h3>Edit and add to your pet profile</h3>
-                    </li>
-                    <li class="partner">
-                        <h3>Review adopter applications</h3>
-                    </li>
-                    <li class="partner">
-                        <h3>Respond to adopter questions</h3>
-                    </li>
-                    <li class="partner">
-                        <h3>Upload pet records</h3>
-                    </li>
-                    <li class="partner">
-                        <h3>Submit adoption paperwork</h3>
-                    </li>
-                    <li class="partner">
-                        <h3>Browse resources and FAQs</h3>
-                    </li>
+                <h1>Cute Kittens Awaiting!</h1>
+
+                <ul id="photos">
                 </ul>
-
-                <h2>2. Review Applications</h2>
-                <p>Finding a new home for your pet can feel like a big decision.
-                    We’ll make sure you’re not alone.</p>
-                <ul id="partners">
-                    <li class="partner">
-                        <h3>We'll notify you when you have a new application to
-                            review.</h3>
-                    </li>
-                    <li class="partner">
-                        <h3>If you aren't 100% confident in your ability to
-                            choose the right adopter, we have
-                            question-by-question screening guidance right on the
-                            application page, so you can see which answers are
-                            great, which are not-so-great, and which ones might
-                            require follow-up questions.</h3>
-                    </li>
-                </ul>
-
-                <h2>3. Meet Adopters</h2>
-                <p>After you screen the application, it’s time to meet the
-                    adopter! We’ll give you all the tips you need for conducting
-                    a safe and effective meeting.</p>
-
-                <h2>4. Finalize Adoption</h2>
-                <p>Adopt-a-Pet.com gives you a personalized adoption agreement
-                    that you and your adopter can sign online.</p>
-                <ul id="partners">
-                    <li class="partner">
-                        <h3>You’ll even be able to specify what you want to
-                            happen if the adoption doesn’t work out (rest
-                            assured, most adoptions are successful): if you want
-                            the pet returned to you or you want the adopter to
-                            find a new home for the pet.</h3>
-                    </li>
-                    <li class="partner">
-                        <h3>Your adopter will be able to download any medical or
-                            microchip records you supply</h3>
-                    </li>
-                    <li class="partner">
-                        <h3>Finally, the adopter can submit their adoption fee
-                            online, which we’ll pass along to the rescue or
-                            shelter of your choice.</h3>
-                    </li>
-                </ul>
-
-
-
 
             </main> <!-- End Main Content -->
 
@@ -170,5 +102,19 @@
                 </div>
             </footer>
         </div> <!-- End Container-->
+        <script>
+            var photos = [];
+            var fn = [];
+            var imageList = [];
+            var image;
+            var head = "<li class='photo'>";
+            var tail = "</li>";
+
+            for (var i = 1; i <= 10; i++) {
+                image = head + "<img src='/images/cats/cat-" + i + ".jpg'>" + tail;
+                imageList.push(image);
+            }
+            document.getElementById("photos").innerHTML = imageList;
+        </script>
     </body>
 </html>

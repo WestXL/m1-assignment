@@ -11,14 +11,15 @@
 }           
 #nav li {
     display: inline;   
-    text-align: center;             
+    text-align: center;     
+    text-transform: uppercase;   
 }           
 #nav a {
     border-left:2px solid rgb(255, 255, 255);
     line-height: 40px;
     color: #fff;
     text-decoration: none;
-    padding: 10px 100px;
+    padding: 10px 60px;
     box-shadow: inset 20px;
 }           
 #nav a:hover {
@@ -45,8 +46,9 @@ header {
 }
 h1 {
     color: rgb(221, 0, 0);
-    margin-top: 10px;
+    margin-top: 20px;
     margin-bottom: -20px;
+    text-align: center;
 }
 
 h2 {
@@ -126,3 +128,19 @@ footer {
     /* opacity: 0.5; */
 }
 
+/* gallery */
+#photos li {
+  list-style-type: none; /* Remove bullets */
+  display: inline-block;
+  margin: 10px;
+}
+
+#photos{
+    margin: auto;
+    margin-top: 40px;
+    width: 75%;
+}
+
+#photos img{
+    width: 550px;
+}
