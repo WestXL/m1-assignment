@@ -31,8 +31,8 @@ document.getElementById("photos").innerHTML = imageList;
 function on(i) {
     document.getElementById("overlay").style.display = "block";
     var str = "<p>" + disArray[i - 1] + "</p>";
-    document.getElementById("text").innerHTML = "<h4>You have selected Kitten " + i + "!</h4>" +
-        str + "<div id='closeBtn' onclick='off()'>click here to close the discription<div>";
+    document.getElementById("text").innerHTML = "<h4 id='dis'>You have selected Kitten " + i + "!</h4>" +
+        str + "<div id='closeBtn' onclick='off()'>Click here to close the discription<div>";
 }
 
 function off() {
