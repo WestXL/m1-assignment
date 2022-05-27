@@ -38,6 +38,10 @@
 
                 <ul id="photos">
                 </ul>
+                <div id="overlay">
+                    <div id="text">
+                    </div>
+                </div>
 
             </main> <!-- End Main Content -->
 
@@ -102,24 +106,6 @@
                 </div>
             </footer>
         </div> <!-- End Container-->
-        <script>
-            var photos = [];
-            var fn = [];
-            var imageList = [];
-            var image;
-            var head = "<li class='photo'>";
-            var tail = "</li>";
-
-            for (var i = 1; i <= 10; i++) {
-                captionText = "This is puppy No. " + i;
-                image = head + "<img src='/images/cats/cat-" + 
-                i + ".jpg'>" + 
-                "<div class='hiddenText'>Are you interested in Kitten-" + 
-                i + "?</div>" + "<figcaption class='caption'>" + 
-                captionText + "</figcaption>" + tail;
-                imageList.push(image);
-            }
-            document.getElementById("photos").innerHTML = imageList;
-        </script>
+        <script src="js/gallery_cat.js"></script>
     </body>
 </html>
