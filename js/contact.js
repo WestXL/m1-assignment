@@ -9,6 +9,6 @@ function display() {
 
     if (value == 'Phone') {
         document.getElementById('selectInput').innerHTML = "<label>Enter your " + value + "</label><br>" +
-            "<input  id='selInput' type='email'><br>";
+            "<input  id='selInput' type='tel' pattern='[0-9]{3}-[0-9]{2}-[0-9]{3}'><br>";
     }
 }
