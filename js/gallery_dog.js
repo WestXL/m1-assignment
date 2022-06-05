@@ -26,8 +26,6 @@ $(document).ready(function () {
     });
 });
 
-
-
 var photos = [];
 var fn = [];
 var imageList = [];
