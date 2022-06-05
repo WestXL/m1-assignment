@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html>
+
     <head>
         <title>Local Pet Adoption Service</title>
         <link rel="stylesheet" href="styles.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     </head>
+
     <body id="home">
         <!-- Container to wrap everything -->
         <div id="container">
-
             <!-- Brand of website -->
             <header>
                 <!-- <img src="images/cliff_ocean.jpg" alt="Ocean View Cliff" width="1280" height="564"> -->
                 <div class="main-header">
                     <!-- <div class="logo"> -->
-                    <img src="images/logo.png" alt="Logo"
-                        width="75">
+                    <img src="images/logo.png" alt="Logo" width="75">
                     <!-- </div> -->
                     <!-- Main Navigation -->
                     <p>Adopt true love from shelters, rescues, & private owners</p>
@@ -30,19 +31,23 @@
                     <!-- End Main Navigation -->
                 </div>
             </header>
-
-
             <!-- Main Content -->
             <main>
                 <h1>Cute Puppies Awaiting!</h1>
                 <ul id="photos"></ul>
+                
                 <div id="overlay">
                     <div id="text">
                     </div>
                 </div>
+                
+                <div class="backdrop"></div>
+
+                <div class="box">
+                    <div class="close">x</div>
+                </div>
 
             </main> <!-- End Main Content -->
-
             <section>
                 <div class="social">
                     <table>
@@ -56,7 +61,6 @@
                                 <th>Tumblr</th>
                             </tr>
                         </thead>
-
                         <tbody>
                             <tr>
                                 <td><a href="/index.html">PetLovers</a></td>
@@ -64,7 +68,6 @@
                                 <td><a href="/index.html">PetAdopts</a></td>
                             </tr>
                         </tbody>
-
                         <tbody>
                             <tr>
                                 <td><a href="/index.html">PetLovers</a></td>
@@ -72,7 +75,6 @@
                                 <td><a href="/index.html">PetAdopts</a></td>
                             </tr>
                         </tbody>
-
                         <tbody>
                             <tr>
                                 <td><a href="/index.html">PetLovers</a></td>
@@ -83,12 +85,10 @@
                     </table>
                 </div>
             </section>
-
             <!-- Footer Information -->
             <footer>
                 <div id="nondisclaimer">
-                    <div class="copy">&copy Copyright 2022 ::
-                        Local Pet Adoption.com</div>
+                    <div class="copy">&copy Copyright 2022 :: Local Pet Adoption.com</div>
                     <!-- <div class="social">
                             <h3>Facebook Image</h3>
                             <h3>Instagram Image</h3>
@@ -96,15 +96,11 @@
                         </div> -->
                 </div>
                 <div id="disclaimer">
-                    <p>This website is designed and created solely for
-                        educational purposes only at Westcliff University.
-                        All
-                        contents are not intended for any commercial gain or
-                        use.</p>
+                    <p>This website is designed and created solely for educational purposes only at Westcliff University. All contents are not intended for any commercial gain or use.</p>
                 </div>
             </footer>
         </div> <!-- End Container-->
         <script src="js/gallery_dog.js"></script>
-
     </body>
+
 </html>
